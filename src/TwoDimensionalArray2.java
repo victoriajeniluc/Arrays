@@ -22,14 +22,21 @@ public class TwoDimensionalArray2 {
 		/*
 		 Separate statements to print all the array elements.
 		 */
-        System.out.println(arr[0][0]); // will first assign the int default value of 0
+        /*System.out.println(arr[0][0]); // will first assign the int default value of 0
         System.out.println(arr[0][1]); // will first assign the int default value of 0
         System.out.println(arr[1][0]); // will first assign the int default value of 0
         System.out.println(arr[1][1]); // will first assign the int default value of 0
         System.out.println(arr[2][0]); // will first assign the int default value of 0
         System.out.println(arr[2][1]); // will first assign the int default value of 0
-
+*/
         // arr is an example of symmetrical two dimensionality
 
+        // how to print each item out without doing the method above:
+
+        for(int i = 0; i < arr.length; i++) {
+            for(int j = 0; j < arr[i].length; j++) {
+                System.out.println("arr[" + i + "][" + j + "]: " + arr[i][j]);
+            }
+        }
     }
 }
