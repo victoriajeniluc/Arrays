@@ -33,6 +33,8 @@ public class TwoDimensionalArray1 {
         System.out.println(arr[0][0]); //Prints 20
         System.out.println(arr[1][2]); //Prints 30
 
+        //arr is an assymetrical array due to having different sizes of arrays in each postion of the big array
+
         //arr[2] is null, any reference on null gives NullPointerException.
         //arr[2][1] = 50;
     }
